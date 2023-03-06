@@ -1,0 +1,8 @@
+/* Changes all the elements in the html when * is used */
+*{
+    /* Resetting the padding and margin to zero */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
