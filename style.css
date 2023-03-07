@@ -1,8 +1,42 @@
+/* Importing roboto font styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
 /* Changes all the elements in the html when * is used */
 *{
     /* Resetting the padding and margin to zero */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* Setting all the text to Roboto. Will bounce back to san-serif if roboto is 
+    not supported on the specific broswer. */
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    height: 70px;
+    /* Puts the nav items in one row */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+/* Created a class on the image named logo to adjust the size of the image */
+.logo{
+    width: 300px;
+}
+
+/* Target the links to go side by side */
+ul{
+    display: flex ;
+    
+}
+
+/* Make changes to the items in the list*/
+li{
+    /* Removes the bullet points from the list items/Links */
+    list-style-type: none;
+    /* Adds spacing between the listed items */
+    padding-left: 16px;
 }
 
