@@ -89,11 +89,17 @@ li{
     justify-content: center;
 }
 
-/* About Section */
-
-#About{
+#About , #Discord{
     /* Add padding around the about section top and bottom by 48px */
     padding: 48px 0px;
+   
+}
+
+/* About Section */
+
+
+#About{
+    background-color: #f8ffdc;
 }
 
 h2{
@@ -108,18 +114,37 @@ h2{
     align-items: center;
 }
 
-/*  */
+/* Set the image wrap width to 40% to take that much space on the right */
 .about_img--wrapperclass{
     width: 40%;
+    padding: 0 24px;
 }
 
 img{
     width: 100%;
 }
 
+/* Set the text wrap width to 60% to take that much space on the left */
 .section__description--wrapper{
     width: 60%;
+    padding: 0 24px;
 }
+
+/* Customize the paragraph texts in the about section */
+.selection__description--para
+{
+    font-size: 20px;
+    /* Add spacing in between sentences */
+    line-height: 1.5;
+}
+
+/* Discord Section */
+
+#Discord{
+    background-color: #cefeff;
+}
+
+
 
 
 
