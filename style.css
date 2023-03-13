@@ -87,9 +87,10 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 
-#About , #Discord{
+#About , #Discord , #Contact , footer {
     /* Add padding around the about section top and bottom by 48px */
     padding: 48px 0px;
    
@@ -148,7 +149,6 @@ img{
 
 #Contact{
     background-color: #dce9ff;
-    padding-bottom: 24px;
 
 }
 
@@ -166,7 +166,27 @@ input , textarea {
     padding: 6px 12px;
 }
 
+/* Footer Section */
 
+footer{
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_logo{
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+
+.footer_links{
+    margin-bottom: 32px;
+}
+
+.footer_link{
+    padding: 0 16px;
+}
 
 
 

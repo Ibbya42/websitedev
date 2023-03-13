@@ -46,6 +46,7 @@
         <section id="About">
             <!--Using H2 tag to create title -->
             <h2>About Us</h2>
+            <div class="row">
             <!-- Creating a div class to flexbox the image and the text -->
             <div class="section__description">
                 <!-- Creating a div to wrap and focus on the text -->
@@ -68,14 +69,17 @@
                         <img src="assets/about.jpg" alt="">
                     </figure>
                 </div>
+                </div>
 
         </section>
         <!-- Creating a section id to link the navigation bar to this section -->
         <section id="Discord">
              <!--Using H2 tag to create title -->
             <h2>Discord</h2>
+            <div class="row">
             <div class="section__description">
 
+                 <!-- Creating a figure div to call in the photo -->
                 <figure class="about_img--wrapperclass">
                     <img src="assets/discord.png" alt="">
                 </figure>
@@ -92,8 +96,8 @@
                     Eos laborum perferendis tempore ipsum, facilis tempora rem, a, 
                     atque sapiente vero esse?</p>
                     </div>
-                     <!-- Creating a figure div to call in the photo -->
                 </div>
+            </div>
         </section>
 
 
@@ -119,13 +123,12 @@
     </main>
 
     <footer>
-        <img src="assets/FES.svg">
-
-        <div>
-            <a href="#About">About</a>
-            <a href="#Discord">Discord</a>
-            <a href="#Contact">Contact</a>
-            <a href="#Courses">Courses</a>
+        <img class="footer_logo" src="assets/FES.svg">
+        <div class="footer_links">
+            <a class="footer_link" href="#About">About</a>
+            <a class="footer_link" href="#Discord">Discord</a>
+            <a class="footer_link" href="#Contact">Contact</a>
+            <a class="footer_link" href="#Courses">Courses</a>
         </div>
         <p>Copyright Intended</p>
     </footer>
