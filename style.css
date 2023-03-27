@@ -158,6 +158,7 @@ form{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    padding: 0 24px
 }
 
 input , textarea {
@@ -196,6 +197,8 @@ footer{
 For Small phones, tablets and Large Smart Phones */
 
 @media (max-width: 728px) {
+
+    /* Main */
 .row {
         flex-direction: column;
     }
@@ -237,6 +240,31 @@ For Small phones, tablets and Large Smart Phones */
 
     .about_img--wrapperclass{
         width: 100%;
+    }
+
+    /* Discord */
+
+    #Discord .section__description{
+        flex-direction: column-reverse;
+    }
+
+    /* Footer */
+
+    footer{
+        padding: 48px 24px;
+    }
+
+    .footer_logo{
+        max-width: 400px;
+    }
+
+    .footer_link{
+        padding: 0 4px;
+        font-size: 18px;
+    }
+
+    .footer_links{
+        margin-bottom: 24px;
     }
 }
 
